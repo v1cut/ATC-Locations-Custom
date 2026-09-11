@@ -3557,124 +3557,49 @@ events =
     0, arr, 164, LINNG, a321
     0, arr, 259, NUBER, b738
     0, arr, 080, RAGID, a320
-
     0, dep, rwy24R, ANCOL4, b738
-
     60, dep, rwy23, AVSEP6, a320
-
     60, dep, rwy23, GOPUP3, b738
-
     60, arr, 328, BOXUM, b738, 0, 0, 0, 0, 0, 1
     0, arr, 045, IMEBA, a320
     0, arr, 164, LINNG, a321
-
     0, arr, 080, RAGID, a320
-
     0, dep, rwy24R, DEDKI4, a321
-
     60, dep, rwy23, IKLEN2, b738
-
     60, dep, rwy23, KISEP3, a320
-
     60, arr, 328, BOXUM, b738
     0, arr, 045, IMEBA, a320
     0, arr, 164, LINNG, a321
     0, arr, 259, NUBER, b738
-
-
     0, dep, rwy24R, MIXUT6, b738
-
     60, dep, rwy23, SEDOG5, a320
-
     60, dep, rwy23, URSAL3, b738, 0, 0, 0, 0, 0, 2
-
     60, arr, 328, BOXUM, b738
     0, arr, 045, IMEBA, a320
-
     0, arr, 259, NUBER, b738
     0, arr, 080, RAGID, a320
-
     0, dep, rwy24R, VERDO6, a321
-
     60, dep, rwy23, AVSEP6, b738
-
     60, dep, rwy23, GOPUP3, a320
-
     60, arr, 328, BOXUM, b738
     0, arr, 045, IMEBA, a320
     0, arr, 164, LINNG, a321
     0, arr, 259, NUBER, b738
     0, arr, 080, RAGID, a320
-
-
     60, arr, 328, BOXUM, b738
     0, arr, 045, IMEBA, a320
     0, arr, 164, LINNG, a321
-
-    0, arr, 080, RAGID, a320
-
-
     60, arr, 328, BOXUM, b738
-
-    0, arr, 164, LINNG, a321
     0, arr, 259, NUBER, b738
-    0, arr, 080, RAGID, a320
-
-    0, dep, rwy24R, RIGUS4, a320
-
-    60, dep, rwy24R, VERDO6, a321
-
-
     60, arr, 328, BOXUM, b738
     0, arr, 045, IMEBA, a320, 0, 0, 0, 0, 0, 3
+    60, arr, 328, BOXUM, b738
+    60, arr, 328, BOXUM, b738
     0, arr, 164, LINNG, a321
-
-
-    0, dep, rwy24R, ANCOL4, b738
-
-    60, dep, rwy23, IKLEN2, b738
-
-
     60, arr, 328, BOXUM, b738
-    0, arr, 045, IMEBA, a320
-
-    0, arr, 080, RAGID, a320
-
-    0, dep, rwy24R, DEDKI4, a321
-
-    60, dep, rwy24R, KEPTA2, b738
-
-
-    60, arr, 328, BOXUM, b738
-    0, arr, 045, IMEBA, a320
-    0, arr, 164, LINNG, a321
-
-
-
-
-    60, arr, 328, BOXUM, b738
-
     0, arr, 259, NUBER, b738, 0, 0, 0, 0, 0, 4
-    0, arr, 080, RAGID, a320
-
-    0, dep, rwy24R, VERDO6, a321
-
-    60, dep, rwy23, IKLEN2, b738
-
-
     60, arr, 328, BOXUM, b738
-    0, arr, 045, IMEBA, a320
     0, arr, 164, LINNG, a321
-
-
-
-
     60, arr, 328, BOXUM, b738
-
     0, arr, 259, NUBER, b738
-    0, arr, 080, RAGID, a320
-
-    0, dep, rwy24R, KEPTA2, b738
-
-    60, dep, rwy24R, MIXUT6, b738
 
