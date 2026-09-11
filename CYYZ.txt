@@ -3021,7 +3021,7 @@ route1 =
 	000, LINNG3, Ling Three
 	N43.302747,W79.354797
 	N43.363328,W79.393631, 12000, 250
-	N43.544211,W79.510125, 8000, 210
+	N43.544211,W79.510125, 9000, 210
 	N43.596614,W79.543764
 	N43.727500,W79.352833
 	N43.761783,W79.302619
@@ -3104,7 +3104,7 @@ route1 =
 	N43.302747,W79.354797
 	N43.366136,W79.381839, 12000, 250
 	N43.524486,W79.449661
-	N43.554692,W79.489028, 8000, 210
+	N43.554692,W79.489028, 9000, 210
 	N43.596614,W79.543764
 	N43.474167,W79.721667
 	N43.439706,W79.771414
@@ -3524,6 +3524,11 @@ config4 =
 	0, rwy33L, landrev
 	0, rwy33R, landstartrev
 	0, rwy8, landstart
+	
+config5 =
+	0, rwy24R, landstart
+	0, rwy23, landstart
+	0, rwy8, landstartrev
 
 ##############################################################
 [planetypes]
@@ -3538,3 +3543,138 @@ types =
 	GALX, 5, 160, 300, 2.9, 3.2, 1440, 1560, 110, 120, 1.1, 1.3
 	H25B, 5, 160, 300, 2.9, 3.2, 1440, 1560, 110, 120, 1.1, 1.3
 	H25C, 5, 160, 300, 2.9, 3.2, 1440, 1560, 110, 120, 1.1, 1.3
+	
+[scenario]
+
+finish = 30, 1800
+
+events =
+    0, config, 5
+    0, score, 6
+
+    0, arr, 328, BOXUM, b738
+    0, arr, 045, IMEBA, a320
+    0, arr, 164, LINNG, a321
+    0, arr, 259, NUBER, b738
+    0, arr, 080, RAGID, a320
+
+    0, dep, rwy24R, ANCOL4, b738
+
+    60, dep, rwy23, AVSEP6, a320
+
+    60, dep, rwy23, GOPUP3, b738
+
+    60, arr, 328, BOXUM, b738
+    0, arr, 045, IMEBA, a320
+    0, arr, 164, LINNG, a321
+
+    0, arr, 080, RAGID, a320
+
+    0, dep, rwy24R, DEDKI4, a321
+
+    60, dep, rwy23, IKLEN2, b738
+
+    60, dep, rwy23, KISEP3, a320
+
+    60, arr, 328, BOXUM, b738
+    0, arr, 045, IMEBA, a320
+    0, arr, 164, LINNG, a321
+    0, arr, 259, NUBER, b738
+
+
+    0, dep, rwy24R, MIXUT6, b738
+
+    60, dep, rwy23, SEDOG5, a320
+
+    60, dep, rwy23, URSAL3, b738
+
+    60, arr, 328, BOXUM, b738
+    0, arr, 045, IMEBA, a320
+
+    0, arr, 259, NUBER, b738
+    0, arr, 080, RAGID, a320
+
+    0, dep, rwy24R, VERDO6, a321
+
+    60, dep, rwy23, AVSEP6, b738
+
+    60, dep, rwy23, GOPUP3, a320
+
+    60, arr, 328, BOXUM, b738
+    0, arr, 045, IMEBA, a320
+    0, arr, 164, LINNG, a321
+    0, arr, 259, NUBER, b738
+    0, arr, 080, RAGID, a320
+
+
+    60, arr, 328, BOXUM, b738
+    0, arr, 045, IMEBA, a320
+    0, arr, 164, LINNG, a321
+
+    0, arr, 080, RAGID, a320
+
+
+    60, arr, 328, BOXUM, b738
+
+    0, arr, 164, LINNG, a321
+    0, arr, 259, NUBER, b738
+    0, arr, 080, RAGID, a320
+
+    0, dep, rwy24R, RIGUS4, a320
+
+    60, dep, rwy24R, VERDO6, a321
+
+
+    60, arr, 328, BOXUM, b738
+    0, arr, 045, IMEBA, a320
+    0, arr, 164, LINNG, a321
+
+
+    0, dep, rwy24R, ANCOL4, b738
+
+    60, dep, rwy23, IKLEN2, b738
+
+
+    60, arr, 328, BOXUM, b738
+    0, arr, 045, IMEBA, a320
+
+    0, arr, 080, RAGID, a320
+
+    0, dep, rwy24R, DEDKI4, a321
+
+    60, dep, rwy24R, KEPTA2, b738
+
+
+    60, arr, 328, BOXUM, b738
+    0, arr, 045, IMEBA, a320
+    0, arr, 164, LINNG, a321
+
+
+
+
+    60, arr, 328, BOXUM, b738
+
+    0, arr, 259, NUBER, b738
+    0, arr, 080, RAGID, a320
+
+    0, dep, rwy24R, VERDO6, a321
+
+    60, dep, rwy23, IKLEN2, b738
+
+
+    60, arr, 328, BOXUM, b738
+    0, arr, 045, IMEBA, a320
+    0, arr, 164, LINNG, a321
+
+
+
+
+    60, arr, 328, BOXUM, b738
+
+    0, arr, 259, NUBER, b738
+    0, arr, 080, RAGID, a320
+
+    0, dep, rwy24R, KEPTA2, b738
+
+    60, dep, rwy24R, MIXUT6, b738
+
